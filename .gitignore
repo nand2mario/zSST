@@ -1,0 +1,6 @@
+/build/
+/.Xil/
+/clockInfo.txt
+/cong/
+__pycache__/
+*.pyc

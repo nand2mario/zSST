@@ -1,0 +1,2862 @@
+{
+  "aliases": [
+    {
+      "address": 2097152,
+      "name": "alt_status",
+      "target": "status"
+    },
+    {
+      "address": 2097160,
+      "name": "alt_vertexAx",
+      "target": "vertexAx"
+    },
+    {
+      "address": 2097164,
+      "name": "alt_vertexAy",
+      "target": "vertexAy"
+    },
+    {
+      "address": 2097168,
+      "name": "alt_vertexBx",
+      "target": "vertexBx"
+    },
+    {
+      "address": 2097172,
+      "name": "alt_vertexBy",
+      "target": "vertexBy"
+    },
+    {
+      "address": 2097176,
+      "name": "alt_vertexCx",
+      "target": "vertexCx"
+    },
+    {
+      "address": 2097180,
+      "name": "alt_vertexCy",
+      "target": "vertexCy"
+    },
+    {
+      "address": 2097184,
+      "name": "alt_startR",
+      "target": "startR"
+    },
+    {
+      "address": 2097188,
+      "name": "alt_dRdX",
+      "target": "dRdX"
+    },
+    {
+      "address": 2097192,
+      "name": "alt_dRdY",
+      "target": "dRdY"
+    },
+    {
+      "address": 2097196,
+      "name": "alt_startG",
+      "target": "startG"
+    },
+    {
+      "address": 2097200,
+      "name": "alt_dGdX",
+      "target": "dGdX"
+    },
+    {
+      "address": 2097204,
+      "name": "alt_dGdY",
+      "target": "dGdY"
+    },
+    {
+      "address": 2097208,
+      "name": "alt_startB",
+      "target": "startB"
+    },
+    {
+      "address": 2097212,
+      "name": "alt_dBdX",
+      "target": "dBdX"
+    },
+    {
+      "address": 2097216,
+      "name": "alt_dBdY",
+      "target": "dBdY"
+    },
+    {
+      "address": 2097220,
+      "name": "alt_startZ",
+      "target": "startZ"
+    },
+    {
+      "address": 2097224,
+      "name": "alt_dZdX",
+      "target": "dZdX"
+    },
+    {
+      "address": 2097228,
+      "name": "alt_dZdY",
+      "target": "dZdY"
+    },
+    {
+      "address": 2097232,
+      "name": "alt_startA",
+      "target": "startA"
+    },
+    {
+      "address": 2097236,
+      "name": "alt_dAdX",
+      "target": "dAdX"
+    },
+    {
+      "address": 2097240,
+      "name": "alt_dAdY",
+      "target": "dAdY"
+    },
+    {
+      "address": 2097244,
+      "name": "alt_startS",
+      "target": "startS"
+    },
+    {
+      "address": 2097248,
+      "name": "alt_dSdX",
+      "target": "dSdX"
+    },
+    {
+      "address": 2097252,
+      "name": "alt_dSdY",
+      "target": "dSdY"
+    },
+    {
+      "address": 2097256,
+      "name": "alt_startT",
+      "target": "startT"
+    },
+    {
+      "address": 2097260,
+      "name": "alt_dTdX",
+      "target": "dTdX"
+    },
+    {
+      "address": 2097264,
+      "name": "alt_dTdY",
+      "target": "dTdY"
+    },
+    {
+      "address": 2097268,
+      "name": "alt_startW",
+      "target": "startW"
+    },
+    {
+      "address": 2097272,
+      "name": "alt_dWdX",
+      "target": "dWdX"
+    },
+    {
+      "address": 2097276,
+      "name": "alt_dWdY",
+      "target": "dWdY"
+    },
+    {
+      "address": 2097280,
+      "name": "alt_triangleCMD",
+      "target": "triangleCMD"
+    },
+    {
+      "address": 2097288,
+      "name": "alt_fvertexAx",
+      "target": "fvertexAx"
+    },
+    {
+      "address": 2097292,
+      "name": "alt_fvertexAy",
+      "target": "fvertexAy"
+    },
+    {
+      "address": 2097296,
+      "name": "alt_fvertexBx",
+      "target": "fvertexBx"
+    },
+    {
+      "address": 2097300,
+      "name": "alt_fvertexBy",
+      "target": "fvertexBy"
+    },
+    {
+      "address": 2097304,
+      "name": "alt_fvertexCx",
+      "target": "fvertexCx"
+    },
+    {
+      "address": 2097308,
+      "name": "alt_fvertexCy",
+      "target": "fvertexCy"
+    },
+    {
+      "address": 2097312,
+      "name": "alt_fstartR",
+      "target": "fstartR"
+    },
+    {
+      "address": 2097316,
+      "name": "alt_fdRdX",
+      "target": "fdRdX"
+    },
+    {
+      "address": 2097320,
+      "name": "alt_fdRdY",
+      "target": "fdRdY"
+    },
+    {
+      "address": 2097324,
+      "name": "alt_fstartG",
+      "target": "fstartG"
+    },
+    {
+      "address": 2097328,
+      "name": "alt_fdGdX",
+      "target": "fdGdX"
+    },
+    {
+      "address": 2097332,
+      "name": "alt_fdGdY",
+      "target": "fdGdY"
+    },
+    {
+      "address": 2097336,
+      "name": "alt_fstartB",
+      "target": "fstartB"
+    },
+    {
+      "address": 2097340,
+      "name": "alt_fdBdX",
+      "target": "fdBdX"
+    },
+    {
+      "address": 2097344,
+      "name": "alt_fdBdY",
+      "target": "fdBdY"
+    },
+    {
+      "address": 2097348,
+      "name": "alt_fstartZ",
+      "target": "fstartZ"
+    },
+    {
+      "address": 2097352,
+      "name": "alt_fdZdX",
+      "target": "fdZdX"
+    },
+    {
+      "address": 2097356,
+      "name": "alt_fdZdY",
+      "target": "fdZdY"
+    },
+    {
+      "address": 2097360,
+      "name": "alt_fstartA",
+      "target": "fstartA"
+    },
+    {
+      "address": 2097364,
+      "name": "alt_fdAdX",
+      "target": "fdAdX"
+    },
+    {
+      "address": 2097368,
+      "name": "alt_fdAdY",
+      "target": "fdAdY"
+    },
+    {
+      "address": 2097372,
+      "name": "alt_fstartS",
+      "target": "fstartS"
+    },
+    {
+      "address": 2097376,
+      "name": "alt_fdSdX",
+      "target": "fdSdX"
+    },
+    {
+      "address": 2097380,
+      "name": "alt_fdSdY",
+      "target": "fdSdY"
+    },
+    {
+      "address": 2097384,
+      "name": "alt_fstartT",
+      "target": "fstartT"
+    },
+    {
+      "address": 2097388,
+      "name": "alt_fdTdX",
+      "target": "fdTdX"
+    },
+    {
+      "address": 2097392,
+      "name": "alt_fdTdY",
+      "target": "fdTdY"
+    },
+    {
+      "address": 2097396,
+      "name": "alt_fstartW",
+      "target": "fstartW"
+    },
+    {
+      "address": 2097400,
+      "name": "alt_fdWdX",
+      "target": "fdWdX"
+    },
+    {
+      "address": 2097404,
+      "name": "alt_fdWdY",
+      "target": "fdWdY"
+    },
+    {
+      "address": 2097408,
+      "name": "alt_ftriangleCMD",
+      "target": "ftriangleCMD"
+    }
+  ],
+  "registers": [
+    {
+      "access": "rw",
+      "address": 0,
+      "chips": "FBI",
+      "description": "Read FIFO/busy/retrace/swap status; write clears SST-1 PCI interrupts",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 5,
+          "name": "pci_fifo_free"
+        },
+        {
+          "lsb": 6,
+          "msb": 6,
+          "name": "v_retrace"
+        },
+        {
+          "lsb": 7,
+          "msb": 7,
+          "name": "fbi_busy"
+        },
+        {
+          "lsb": 8,
+          "msb": 8,
+          "name": "tmu_busy"
+        },
+        {
+          "lsb": 9,
+          "msb": 9,
+          "name": "sst_busy"
+        },
+        {
+          "lsb": 10,
+          "msb": 11,
+          "name": "displayed_buffer"
+        },
+        {
+          "lsb": 12,
+          "msb": 27,
+          "name": "mem_fifo_free"
+        },
+        {
+          "lsb": 28,
+          "msb": 30,
+          "name": "swaps_pending"
+        },
+        {
+          "lsb": 31,
+          "msb": 31,
+          "name": "pci_interrupt"
+        }
+      ],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "status",
+      "reset": null,
+      "side_effect": "status_clear",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 8,
+      "chips": "FBI+TREX",
+      "description": "Vertex A X, signed 12.4",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "vertexAx",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 12,
+      "chips": "FBI+TREX",
+      "description": "Vertex A Y, signed 12.4",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "vertexAy",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 16,
+      "chips": "FBI+TREX",
+      "description": "Vertex B X, signed 12.4",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "vertexBx",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 20,
+      "chips": "FBI+TREX",
+      "description": "Vertex B Y, signed 12.4",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "vertexBy",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 24,
+      "chips": "FBI+TREX",
+      "description": "Vertex C X, signed 12.4",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "vertexCx",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 28,
+      "chips": "FBI+TREX",
+      "description": "Vertex C Y, signed 12.4",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "vertexCy",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 32,
+      "chips": "FBI+TREX",
+      "description": "Starting red, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startR",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 36,
+      "chips": "FBI+TREX",
+      "description": "Starting green, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startG",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 40,
+      "chips": "FBI+TREX",
+      "description": "Starting blue, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startB",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 44,
+      "chips": "FBI+TREX",
+      "description": "Starting Z, signed 20.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startZ",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 48,
+      "chips": "FBI+TREX",
+      "description": "Starting alpha, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startA",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 52,
+      "chips": "FBI+TREX",
+      "description": "Starting S/W, signed 14.18",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startS",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 56,
+      "chips": "FBI+TREX",
+      "description": "Starting T/W, signed 14.18",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startT",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 60,
+      "chips": "FBI+TREX",
+      "description": "Starting 1/W, signed 2.30",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "startW",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 64,
+      "chips": "FBI+TREX",
+      "description": "Red X gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dRdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 68,
+      "chips": "FBI+TREX",
+      "description": "Green X gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dGdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 72,
+      "chips": "FBI+TREX",
+      "description": "Blue X gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dBdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 76,
+      "chips": "FBI+TREX",
+      "description": "Z X gradient, signed 20.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dZdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 80,
+      "chips": "FBI+TREX",
+      "description": "Alpha X gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dAdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 84,
+      "chips": "FBI+TREX",
+      "description": "S/W X gradient, signed 14.18",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dSdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 88,
+      "chips": "FBI+TREX",
+      "description": "T/W X gradient, signed 14.18",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dTdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 92,
+      "chips": "FBI+TREX",
+      "description": "1/W X gradient, signed 2.30",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dWdX",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 96,
+      "chips": "FBI+TREX",
+      "description": "Red Y gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dRdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 100,
+      "chips": "FBI+TREX",
+      "description": "Green Y gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dGdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 104,
+      "chips": "FBI+TREX",
+      "description": "Blue Y gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dBdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 108,
+      "chips": "FBI+TREX",
+      "description": "Z Y gradient, signed 20.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dZdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 112,
+      "chips": "FBI+TREX",
+      "description": "Alpha Y gradient, signed 12.12",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dAdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 116,
+      "chips": "FBI+TREX",
+      "description": "S/W Y gradient, signed 14.18",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dSdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 120,
+      "chips": "FBI+TREX",
+      "description": "T/W Y gradient, signed 14.18",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dTdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 124,
+      "chips": "FBI+TREX",
+      "description": "1/W Y gradient, signed 2.30",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "dWdY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 128,
+      "chips": "FBI+TREX",
+      "description": "Execute fixed-point triangle",
+      "fields": [],
+      "fifo": true,
+      "group": "fixed triangle parameters",
+      "name": "triangleCMD",
+      "reset": null,
+      "side_effect": "command",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 136,
+      "chips": "FBI+TREX",
+      "description": "Vertex A X, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fvertexAx",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 140,
+      "chips": "FBI+TREX",
+      "description": "Vertex A Y, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fvertexAy",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 144,
+      "chips": "FBI+TREX",
+      "description": "Vertex B X, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fvertexBx",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 148,
+      "chips": "FBI+TREX",
+      "description": "Vertex B Y, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fvertexBy",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 152,
+      "chips": "FBI+TREX",
+      "description": "Vertex C X, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fvertexCx",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 156,
+      "chips": "FBI+TREX",
+      "description": "Vertex C Y, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fvertexCy",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 160,
+      "chips": "FBI+TREX",
+      "description": "Starting red, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartR",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 164,
+      "chips": "FBI+TREX",
+      "description": "Starting green, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartG",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 168,
+      "chips": "FBI+TREX",
+      "description": "Starting blue, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartB",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 172,
+      "chips": "FBI+TREX",
+      "description": "Starting Z, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartZ",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 176,
+      "chips": "FBI+TREX",
+      "description": "Starting alpha, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartA",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 180,
+      "chips": "FBI+TREX",
+      "description": "Starting S/W, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartS",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 184,
+      "chips": "FBI+TREX",
+      "description": "Starting T/W, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartT",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 188,
+      "chips": "FBI+TREX",
+      "description": "Starting 1/W, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fstartW",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 192,
+      "chips": "FBI+TREX",
+      "description": "Red X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdRdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 196,
+      "chips": "FBI+TREX",
+      "description": "Green X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdGdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 200,
+      "chips": "FBI+TREX",
+      "description": "Blue X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdBdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 204,
+      "chips": "FBI+TREX",
+      "description": "Z X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdZdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 208,
+      "chips": "FBI+TREX",
+      "description": "Alpha X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdAdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 212,
+      "chips": "FBI+TREX",
+      "description": "S/W X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdSdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 216,
+      "chips": "FBI+TREX",
+      "description": "T/W X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdTdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 220,
+      "chips": "FBI+TREX",
+      "description": "1/W X gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdWdX",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 224,
+      "chips": "FBI+TREX",
+      "description": "Red Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdRdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 228,
+      "chips": "FBI+TREX",
+      "description": "Green Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdGdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 232,
+      "chips": "FBI+TREX",
+      "description": "Blue Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdBdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 236,
+      "chips": "FBI+TREX",
+      "description": "Z Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdZdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 240,
+      "chips": "FBI+TREX",
+      "description": "Alpha Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdAdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 244,
+      "chips": "FBI+TREX",
+      "description": "S/W Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdSdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 248,
+      "chips": "FBI+TREX",
+      "description": "T/W Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdTdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 252,
+      "chips": "FBI+TREX",
+      "description": "1/W Y gradient, IEEE-754 alias",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "fdWdY",
+      "reset": null,
+      "side_effect": "float_state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 256,
+      "chips": "FBI+TREX",
+      "description": "Execute floating-point triangle",
+      "fields": [],
+      "fifo": true,
+      "group": "floating triangle parameters",
+      "name": "ftriangleCMD",
+      "reset": null,
+      "side_effect": "command",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 260,
+      "chips": "FBI+TREX",
+      "description": "Color/alpha combine and texture enable",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 1,
+          "name": "rgb_select"
+        },
+        {
+          "lsb": 2,
+          "msb": 3,
+          "name": "alpha_select"
+        },
+        {
+          "lsb": 4,
+          "msb": 4,
+          "name": "local_select"
+        },
+        {
+          "lsb": 5,
+          "msb": 6,
+          "name": "alpha_local_select"
+        },
+        {
+          "lsb": 8,
+          "msb": 16,
+          "name": "cc"
+        },
+        {
+          "lsb": 17,
+          "msb": 25,
+          "name": "cca"
+        },
+        {
+          "lsb": 26,
+          "msb": 26,
+          "name": "parameter_adjust"
+        },
+        {
+          "lsb": 27,
+          "msb": 27,
+          "name": "texture_enable"
+        }
+      ],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fbzColorPath",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 264,
+      "chips": "FBI",
+      "description": "Fog mode",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 0,
+          "name": "enable"
+        },
+        {
+          "lsb": 1,
+          "msb": 1,
+          "name": "add"
+        },
+        {
+          "lsb": 2,
+          "msb": 2,
+          "name": "multiply"
+        },
+        {
+          "lsb": 3,
+          "msb": 5,
+          "name": "source"
+        }
+      ],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fogMode",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 268,
+      "chips": "FBI",
+      "description": "Alpha test and blend control",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 0,
+          "name": "test_enable"
+        },
+        {
+          "lsb": 1,
+          "msb": 3,
+          "name": "test_function"
+        },
+        {
+          "lsb": 4,
+          "msb": 4,
+          "name": "blend_enable"
+        },
+        {
+          "lsb": 5,
+          "msb": 5,
+          "name": "antialias_enable"
+        },
+        {
+          "lsb": 8,
+          "msb": 11,
+          "name": "rgb_source_factor"
+        },
+        {
+          "lsb": 12,
+          "msb": 15,
+          "name": "rgb_dest_factor"
+        },
+        {
+          "lsb": 16,
+          "msb": 19,
+          "name": "alpha_source_factor"
+        },
+        {
+          "lsb": 20,
+          "msb": 23,
+          "name": "alpha_dest_factor"
+        },
+        {
+          "lsb": 24,
+          "msb": 31,
+          "name": "alpha_reference"
+        }
+      ],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "alphaMode",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 272,
+      "chips": "FBI",
+      "description": "Framebuffer, clipping, depth and write control",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 0,
+          "name": "clip_enable"
+        },
+        {
+          "lsb": 1,
+          "msb": 1,
+          "name": "chroma_enable"
+        },
+        {
+          "lsb": 2,
+          "msb": 2,
+          "name": "stipple_enable"
+        },
+        {
+          "lsb": 3,
+          "msb": 3,
+          "name": "w_buffer"
+        },
+        {
+          "lsb": 4,
+          "msb": 4,
+          "name": "depth_enable"
+        },
+        {
+          "lsb": 5,
+          "msb": 7,
+          "name": "depth_function"
+        },
+        {
+          "lsb": 8,
+          "msb": 8,
+          "name": "dither_enable"
+        },
+        {
+          "lsb": 9,
+          "msb": 9,
+          "name": "rgb_write"
+        },
+        {
+          "lsb": 10,
+          "msb": 10,
+          "name": "aux_write"
+        },
+        {
+          "lsb": 11,
+          "msb": 11,
+          "name": "dither_2x2"
+        },
+        {
+          "lsb": 12,
+          "msb": 12,
+          "name": "stipple_pattern"
+        },
+        {
+          "lsb": 13,
+          "msb": 13,
+          "name": "alpha_mask"
+        },
+        {
+          "lsb": 14,
+          "msb": 15,
+          "name": "draw_buffer"
+        },
+        {
+          "lsb": 16,
+          "msb": 16,
+          "name": "depth_bias"
+        },
+        {
+          "lsb": 17,
+          "msb": 17,
+          "name": "y_origin"
+        },
+        {
+          "lsb": 18,
+          "msb": 18,
+          "name": "alpha_buffer"
+        },
+        {
+          "lsb": 19,
+          "msb": 19,
+          "name": "dither_subtract"
+        },
+        {
+          "lsb": 20,
+          "msb": 20,
+          "name": "depth_source"
+        }
+      ],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fbzMode",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 276,
+      "chips": "FBI",
+      "description": "Linear framebuffer format, buffer and pipeline control",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 3,
+          "name": "write_format"
+        },
+        {
+          "lsb": 4,
+          "msb": 5,
+          "name": "write_buffer"
+        },
+        {
+          "lsb": 6,
+          "msb": 7,
+          "name": "read_buffer"
+        },
+        {
+          "lsb": 8,
+          "msb": 8,
+          "name": "pixel_pipeline"
+        },
+        {
+          "lsb": 9,
+          "msb": 10,
+          "name": "rgba_lanes"
+        },
+        {
+          "lsb": 11,
+          "msb": 11,
+          "name": "word_swap_writes"
+        },
+        {
+          "lsb": 12,
+          "msb": 12,
+          "name": "byte_swizzle_writes"
+        },
+        {
+          "lsb": 13,
+          "msb": 13,
+          "name": "y_origin"
+        },
+        {
+          "lsb": 14,
+          "msb": 14,
+          "name": "pipeline_w_select"
+        },
+        {
+          "lsb": 15,
+          "msb": 15,
+          "name": "word_swap_reads"
+        },
+        {
+          "lsb": 16,
+          "msb": 16,
+          "name": "byte_swizzle_reads"
+        }
+      ],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "lfbMode",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 280,
+      "chips": "FBI",
+      "description": "Inclusive left and exclusive right clip coordinates",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "clipLeftRight",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 284,
+      "chips": "FBI",
+      "description": "Inclusive low-Y and exclusive high-Y clip coordinates",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "clipLowYHighY",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 288,
+      "chips": "FBI+TREX",
+      "description": "Execute NOP/fence and optional counter reset",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "nopCMD",
+      "reset": null,
+      "side_effect": "command",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 292,
+      "chips": "FBI",
+      "description": "Execute fast rectangle fill",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fastfillCMD",
+      "reset": null,
+      "side_effect": "command",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 296,
+      "chips": "FBI",
+      "description": "Queue a display-buffer swap",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "swapbufferCMD",
+      "reset": null,
+      "side_effect": "command",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 300,
+      "chips": "FBI",
+      "description": "Constant RGB888 fog color",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fogColor",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 304,
+      "chips": "FBI",
+      "description": "Constant alpha and depth value",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "zaColor",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 308,
+      "chips": "FBI",
+      "description": "RGB888 chroma-key value",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "chromaKey",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 320,
+      "chips": "FBI",
+      "description": "Rotating or pattern stipple value",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "stipple",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 324,
+      "chips": "FBI",
+      "description": "ARGB8888 constant color zero",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "color0",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 328,
+      "chips": "FBI",
+      "description": "ARGB8888 constant color one / fast-fill color",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "color1",
+      "reset": null,
+      "side_effect": "state",
+      "sync": true
+    },
+    {
+      "access": "ro",
+      "address": 332,
+      "chips": "FBI",
+      "description": "Pixels entering FBI",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fbiPixelsIn",
+      "reset": null,
+      "side_effect": "counter",
+      "sync": true
+    },
+    {
+      "access": "ro",
+      "address": 336,
+      "chips": "FBI",
+      "description": "Pixels rejected by chroma test",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fbiChromaFail",
+      "reset": null,
+      "side_effect": "counter",
+      "sync": true
+    },
+    {
+      "access": "ro",
+      "address": 340,
+      "chips": "FBI",
+      "description": "Pixels rejected by depth test",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fbiZfuncFail",
+      "reset": null,
+      "side_effect": "counter",
+      "sync": true
+    },
+    {
+      "access": "ro",
+      "address": 344,
+      "chips": "FBI",
+      "description": "Pixels rejected by alpha test",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fbiAfuncFail",
+      "reset": null,
+      "side_effect": "counter",
+      "sync": true
+    },
+    {
+      "access": "ro",
+      "address": 348,
+      "chips": "FBI",
+      "description": "Pixels written by FBI",
+      "fields": [],
+      "fifo": true,
+      "group": "FBI state and commands",
+      "name": "fbiPixelsOut",
+      "reset": null,
+      "side_effect": "counter",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 352,
+      "chips": "FBI",
+      "description": "Fog table word 0",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable00",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 356,
+      "chips": "FBI",
+      "description": "Fog table word 1",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable01",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 360,
+      "chips": "FBI",
+      "description": "Fog table word 2",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable02",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 364,
+      "chips": "FBI",
+      "description": "Fog table word 3",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable03",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 368,
+      "chips": "FBI",
+      "description": "Fog table word 4",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable04",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 372,
+      "chips": "FBI",
+      "description": "Fog table word 5",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable05",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 376,
+      "chips": "FBI",
+      "description": "Fog table word 6",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable06",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 380,
+      "chips": "FBI",
+      "description": "Fog table word 7",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable07",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 384,
+      "chips": "FBI",
+      "description": "Fog table word 8",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable08",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 388,
+      "chips": "FBI",
+      "description": "Fog table word 9",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable09",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 392,
+      "chips": "FBI",
+      "description": "Fog table word 10",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable10",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 396,
+      "chips": "FBI",
+      "description": "Fog table word 11",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable11",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 400,
+      "chips": "FBI",
+      "description": "Fog table word 12",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable12",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 404,
+      "chips": "FBI",
+      "description": "Fog table word 13",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable13",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 408,
+      "chips": "FBI",
+      "description": "Fog table word 14",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable14",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 412,
+      "chips": "FBI",
+      "description": "Fog table word 15",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable15",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 416,
+      "chips": "FBI",
+      "description": "Fog table word 16",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable16",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 420,
+      "chips": "FBI",
+      "description": "Fog table word 17",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable17",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 424,
+      "chips": "FBI",
+      "description": "Fog table word 18",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable18",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 428,
+      "chips": "FBI",
+      "description": "Fog table word 19",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable19",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 432,
+      "chips": "FBI",
+      "description": "Fog table word 20",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable20",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 436,
+      "chips": "FBI",
+      "description": "Fog table word 21",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable21",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 440,
+      "chips": "FBI",
+      "description": "Fog table word 22",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable22",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 444,
+      "chips": "FBI",
+      "description": "Fog table word 23",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable23",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 448,
+      "chips": "FBI",
+      "description": "Fog table word 24",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable24",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 452,
+      "chips": "FBI",
+      "description": "Fog table word 25",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable25",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 456,
+      "chips": "FBI",
+      "description": "Fog table word 26",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable26",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 460,
+      "chips": "FBI",
+      "description": "Fog table word 27",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable27",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 464,
+      "chips": "FBI",
+      "description": "Fog table word 28",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable28",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 468,
+      "chips": "FBI",
+      "description": "Fog table word 29",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable29",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 472,
+      "chips": "FBI",
+      "description": "Fog table word 30",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable30",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 476,
+      "chips": "FBI",
+      "description": "Fog table word 31",
+      "fields": [],
+      "fifo": true,
+      "group": "fog table",
+      "name": "fogTable31",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "rw",
+      "address": 512,
+      "chips": "FBI",
+      "description": "FBI hardware initialization 4",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "fbiInit4",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "ro",
+      "address": 516,
+      "chips": "FBI",
+      "description": "Vertical retrace counter",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "vRetrace",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 520,
+      "chips": "FBI",
+      "description": "Video back-porch timing",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "backPorch",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 524,
+      "chips": "FBI",
+      "description": "Native video dimensions",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "videoDimensions",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 528,
+      "chips": "FBI",
+      "description": "FBI hardware initialization 0",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "fbiInit0",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 532,
+      "chips": "FBI",
+      "description": "FBI hardware initialization 1",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "fbiInit1",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 536,
+      "chips": "FBI",
+      "description": "FBI hardware initialization 2",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "fbiInit2",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "rw",
+      "address": 540,
+      "chips": "FBI",
+      "description": "FBI hardware initialization 3",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 0,
+          "name": "triangle_remap"
+        }
+      ],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "fbiInit3",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 544,
+      "chips": "FBI",
+      "description": "Horizontal sync timing",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "hSync",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 548,
+      "chips": "FBI",
+      "description": "Vertical sync timing",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "vSync",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 552,
+      "chips": "FBI",
+      "description": "Color lookup table write",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "clutData",
+      "reset": null,
+      "side_effect": "clut",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 556,
+      "chips": "FBI",
+      "description": "External DAC access",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "dacData",
+      "reset": null,
+      "side_effect": "dac",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 560,
+      "chips": "FBI",
+      "description": "Video-filter RGB threshold",
+      "fields": [],
+      "fifo": false,
+      "group": "initialization and video",
+      "name": "maxRgbDelta",
+      "reset": null,
+      "side_effect": "initialization",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 768,
+      "chips": "TREX",
+      "description": "Texture format, filtering and combine",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 0,
+          "name": "perspective"
+        },
+        {
+          "lsb": 1,
+          "msb": 1,
+          "name": "min_filter"
+        },
+        {
+          "lsb": 2,
+          "msb": 2,
+          "name": "mag_filter"
+        },
+        {
+          "lsb": 4,
+          "msb": 4,
+          "name": "lod_dither"
+        },
+        {
+          "lsb": 5,
+          "msb": 5,
+          "name": "ncc_select"
+        },
+        {
+          "lsb": 6,
+          "msb": 6,
+          "name": "clamp_s"
+        },
+        {
+          "lsb": 7,
+          "msb": 7,
+          "name": "clamp_t"
+        },
+        {
+          "lsb": 8,
+          "msb": 11,
+          "name": "format"
+        },
+        {
+          "lsb": 12,
+          "msb": 20,
+          "name": "rgb_combine"
+        },
+        {
+          "lsb": 21,
+          "msb": 29,
+          "name": "alpha_combine"
+        },
+        {
+          "lsb": 30,
+          "msb": 30,
+          "name": "trilinear"
+        },
+        {
+          "lsb": 31,
+          "msb": 31,
+          "name": "sequential_download"
+        }
+      ],
+      "fifo": true,
+      "group": "TMU",
+      "name": "textureMode",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 772,
+      "chips": "TREX",
+      "description": "Texture LOD, aspect and download control",
+      "fields": [
+        {
+          "lsb": 0,
+          "msb": 5,
+          "name": "lod_min"
+        },
+        {
+          "lsb": 6,
+          "msb": 11,
+          "name": "lod_max"
+        },
+        {
+          "lsb": 12,
+          "msb": 17,
+          "name": "lod_bias"
+        },
+        {
+          "lsb": 18,
+          "msb": 18,
+          "name": "odd"
+        },
+        {
+          "lsb": 19,
+          "msb": 19,
+          "name": "split"
+        },
+        {
+          "lsb": 20,
+          "msb": 20,
+          "name": "s_is_wider"
+        },
+        {
+          "lsb": 21,
+          "msb": 22,
+          "name": "aspect"
+        },
+        {
+          "lsb": 23,
+          "msb": 23,
+          "name": "zero_fraction"
+        },
+        {
+          "lsb": 24,
+          "msb": 24,
+          "name": "multibase"
+        },
+        {
+          "lsb": 25,
+          "msb": 25,
+          "name": "data_swizzle"
+        },
+        {
+          "lsb": 26,
+          "msb": 26,
+          "name": "data_swap"
+        },
+        {
+          "lsb": 27,
+          "msb": 27,
+          "name": "direct_write"
+        }
+      ],
+      "fifo": true,
+      "group": "TMU",
+      "name": "tLOD",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 776,
+      "chips": "TREX",
+      "description": "Texture detail bias and scale",
+      "fields": [],
+      "fifo": true,
+      "group": "TMU",
+      "name": "tDetail",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 780,
+      "chips": "TREX",
+      "description": "Texture base address",
+      "fields": [],
+      "fifo": true,
+      "group": "TMU",
+      "name": "texBaseAddr",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 784,
+      "chips": "TREX",
+      "description": "Supplemental LOD 1 base",
+      "fields": [],
+      "fifo": true,
+      "group": "TMU",
+      "name": "texBaseAddr1",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 788,
+      "chips": "TREX",
+      "description": "Supplemental LOD 2 base",
+      "fields": [],
+      "fifo": true,
+      "group": "TMU",
+      "name": "texBaseAddr2",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 792,
+      "chips": "TREX",
+      "description": "Supplemental LOD 3-8 base",
+      "fields": [],
+      "fifo": true,
+      "group": "TMU",
+      "name": "texBaseAddr38",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 796,
+      "chips": "TREX",
+      "description": "TREX hardware initialization 0",
+      "fields": [],
+      "fifo": true,
+      "group": "TMU",
+      "name": "trexInit0",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 800,
+      "chips": "TREX",
+      "description": "TREX hardware initialization 1",
+      "fields": [],
+      "fifo": true,
+      "group": "TMU",
+      "name": "trexInit1",
+      "reset": null,
+      "side_effect": "state",
+      "sync": false
+    },
+    {
+      "access": "wo",
+      "address": 804,
+      "chips": "TREX",
+      "description": "NCC table 0 word 0",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_00",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 808,
+      "chips": "TREX",
+      "description": "NCC table 0 word 1",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_01",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 812,
+      "chips": "TREX",
+      "description": "NCC table 0 word 2",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_02",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 816,
+      "chips": "TREX",
+      "description": "NCC table 0 word 3",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_03",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 820,
+      "chips": "TREX",
+      "description": "NCC table 0 word 4",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_04",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 824,
+      "chips": "TREX",
+      "description": "NCC table 0 word 5",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_05",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 828,
+      "chips": "TREX",
+      "description": "NCC table 0 word 6",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_06",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 832,
+      "chips": "TREX",
+      "description": "NCC table 0 word 7",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_07",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 836,
+      "chips": "TREX",
+      "description": "NCC table 0 word 8",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_08",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 840,
+      "chips": "TREX",
+      "description": "NCC table 0 word 9",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_09",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 844,
+      "chips": "TREX",
+      "description": "NCC table 0 word 10",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_10",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 848,
+      "chips": "TREX",
+      "description": "NCC table 0 word 11",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 0",
+      "name": "nccTable0_11",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 852,
+      "chips": "TREX",
+      "description": "NCC table 1 word 0",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_00",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 856,
+      "chips": "TREX",
+      "description": "NCC table 1 word 1",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_01",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 860,
+      "chips": "TREX",
+      "description": "NCC table 1 word 2",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_02",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 864,
+      "chips": "TREX",
+      "description": "NCC table 1 word 3",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_03",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 868,
+      "chips": "TREX",
+      "description": "NCC table 1 word 4",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_04",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 872,
+      "chips": "TREX",
+      "description": "NCC table 1 word 5",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_05",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 876,
+      "chips": "TREX",
+      "description": "NCC table 1 word 6",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_06",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 880,
+      "chips": "TREX",
+      "description": "NCC table 1 word 7",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_07",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 884,
+      "chips": "TREX",
+      "description": "NCC table 1 word 8",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_08",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 888,
+      "chips": "TREX",
+      "description": "NCC table 1 word 9",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_09",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 892,
+      "chips": "TREX",
+      "description": "NCC table 1 word 10",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_10",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    },
+    {
+      "access": "wo",
+      "address": 896,
+      "chips": "TREX",
+      "description": "NCC table 1 word 11",
+      "fields": [],
+      "fifo": true,
+      "group": "NCC table 1",
+      "name": "nccTable1_11",
+      "reset": null,
+      "side_effect": "table",
+      "sync": true
+    }
+  ],
+  "schema_version": 1,
+  "sources": [
+    "SST-1 specification 1.61, section 5 register tables",
+    "SST-1 sst.h, Sstregs and SST_* field definitions",
+    "SpinalVoodoo-repro/emu/86Box/src/include/86box/vid_voodoo_regs.h at pinned 86Box commit"
+  ]
+}
