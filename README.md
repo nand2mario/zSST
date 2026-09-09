@@ -7,6 +7,11 @@ standard SST-1 register, framebuffer, and texture-memory interfaces.
 Read the [zSST design write-up](https://nand2mario.github.io/posts/2026/zsst-voodoo/)
 for the pixel pipeline, memory-system design, and performance results.
 
+| Test scene: Utah teapot | Game scene: Tomb Raider |
+| --- | --- |
+| ![Utah teapot rendered by zSST in simulation](doc/images/teapot.png) | ![Tomb Raider running on z486 XL with zSST on KV260](doc/images/tomb-raider-kv260-enhanced.png) |
+| zSST simulation render. | KV260 HDMI capture; contrast and saturation enhanced for presentation. |
+
 Most core Voodoo Graphics functionality is implemented, including fixed-point
 and floating-point prepared-triangle interfaces, linear-framebuffer access,
 fast fill, depth and alpha testing, chroma keying, fog, blending, dithering,
@@ -24,10 +29,19 @@ The first hardware integration is
 complete z486 PC on the Xilinx KV260. Use that repository to build or try the
 full system on a KV260 board.
 
+## Performance
+
 In the current Xilinx XCK26 Zynq UltraScale+ MPSoC integration, the zSST
 device uses 29,538 LUTs, 28,109 flip-flops, 14 RAMB36 blocks, 8 RAMB18 blocks,
 and 97 DSP slices. It closes timing at 100 MHz as part of the complete z486 XL
 system.
+
+![Fill-rate comparison: 100 MHz zSST simulation reaches 78.47 MPix/s for textured triangles and 72.83 MPix/s with depth and blending; published 50 MHz SST-1 estimates are 43 and 37 MPix/s](doc/images/fillrate.svg)
+
+Renderer simulation with a DDR timing model, compared with published SST-1
+estimates at each design's native clock. Workloads and enabled features differ;
+this is an approximate fill-rate comparison, not a matched hardware benchmark
+or a measure of game FPS. See the [evaluation methodology](https://nand2mario.github.io/posts/2026/zsst-voodoo/#evaluation-results).
 
 ## Tests
 
