@@ -4,6 +4,9 @@ zSST is a portable SystemVerilog implementation of the 3dfx Voodoo Graphics
 (SST-1) programming model. It runs original Glide software through the
 standard SST-1 register, framebuffer, and texture-memory interfaces.
 
+Read the [zSST design write-up](https://nand2mario.github.io/posts/2026/zsst-voodoo/)
+for the pixel pipeline, memory-system design, and performance results.
+
 Most core Voodoo Graphics functionality is implemented, including fixed-point
 and floating-point prepared-triangle interfaces, linear-framebuffer access,
 fast fill, depth and alpha testing, chroma keying, fog, blending, dithering,
