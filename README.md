@@ -9,7 +9,7 @@ for the pixel pipeline, memory-system design, and performance results.
 
 | Test scene: Utah teapot | Game scene: Tomb Raider |
 | --- | --- |
-| ![Utah teapot rendered by zSST in simulation](doc/images/teapot.png) | ![Tomb Raider running on z486 XL with zSST on KV260](doc/images/tomb-raider-kv260-enhanced.png) |
+| <img src="doc/images/teapot.png" alt="Utah teapot rendered by zSST in simulation" width="320"> | <img src="doc/images/tomb-raider-readme.png" alt="Tomb Raider running on z486 XL with zSST on KV260" width="320"> |
 | zSST simulation render. | KV260 HDMI capture; contrast and saturation enhanced for presentation. |
 
 Most core Voodoo Graphics functionality is implemented, including fixed-point
